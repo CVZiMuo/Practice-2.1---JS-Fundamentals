@@ -8,6 +8,6 @@ function daysBetweenDates(date1, date2) {
     return daysDiff;
 }
 
-// Ejemplo de uso
+//examples
 console.log("Days between 2024-01-01 & 2024-12-31:", daysBetweenDates("2024-01-01", "2024-12-31"));
 console.log("Days between 2000-01-01 & 2025-01-01:", daysBetweenDates("2000-01-01", "2025-01-01"));

@@ -3,7 +3,7 @@ function multiplicationTable(number) {
     for (let i = 1; i <= 10; i++) {
         console.log(`${number} x ${i} = ${number * i}`);
     }
-    console.log(""); //separation
+    console.log("");
 }
 
 //using the function for going through the numbers

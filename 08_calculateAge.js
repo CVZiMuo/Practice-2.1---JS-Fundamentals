@@ -13,6 +13,6 @@ function calculateAge(birthDate) {
     return age;
 }
 
-// Ejemplos de uso
+//examples
 console.log("Age for year 2000-05-15:", calculateAge("2000-05-15"));
 console.log("Age for year 1990-12-25:", calculateAge("1990-12-25"));
