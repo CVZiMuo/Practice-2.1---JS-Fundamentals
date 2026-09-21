@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIMIIMMIMI</title>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script>
+        const container = document.getElementById("container");
+        let age = null;
+
+        while (true) {
+            const input = prompt("What's your name?");
+
+            //in case the user cancels the prompt
+            if (input === null) {
+                break;
+            }
+
+            age = parseInt(input);
+
+            //check if it's a number or not
+            if (isNaN(age)) {
+                alert("Please, introduce a valid number");
+                continue;
+            }
+
+            //Checking if it's an adult
+            if (age >= 18) {
+                container.innerHTML = "<h1>Welcome</h1>";
+                break;
+            } else {
+                alert("You must be over 18 y/o");
+            }
+        }
+    </script>
+</body>
+
+</html>
